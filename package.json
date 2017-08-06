@@ -1,0 +1,35 @@
+{
+  "name": "coindesk-history",
+  "version": "1.0.0",
+  "description": "gets historical btc data from coindesk.com",
+  "main": "coindesk-history.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoaiu/coindesk-history.git"
+  },
+  "keywords": [
+    "coindesk",
+    "bitcoin",
+    "historical"
+  ],
+  "author": "ZuYo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eoaiu/coindesk-history/issues"
+  },
+  "homepage": "https://github.com/eoaiu/coindesk-history#readme",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "sinon": "^3.0.0"
+  }
+}
